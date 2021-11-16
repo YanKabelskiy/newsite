@@ -1,0 +1,348 @@
+* {
+
+    margin:0;
+    
+    padding: 0;
+    
+    }
+    
+    html,body {
+    
+    height: 100%;
+    
+    }
+    
+    header, main, footer {
+   
+    width:1040px;
+    margin:0 auto;
+    
+    }
+    
+    #wrapper{
+    display: inline-block;
+    text-align:left;
+    
+    min-height: 100%;
+    
+    height: auto !important;
+    
+    height: 100%;
+    
+    width: 100%;
+    
+    }
+    
+    header{
+    
+    height:120px;
+    
+    
+    }
+    
+    main{
+      
+    padding-bottom: 100px;
+    
+    }
+    
+    footer{
+       
+    margin: -100px auto 0;
+    
+    position: relative;
+    
+    height: 100px;
+    
+    }
+    #logo {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: uppercase;
+        text-decoration:none;
+        color:#fff;
+        font-weight:400px;
+        line-height: 100px;
+        font-size: 24px;
+        float:left;
+        margin-top: -3px;
+    }
+    #mainnav ul {     
+    list-style: none;
+    margin: 0;
+    padding-left: 150px;    
+    }
+    #mainnav li{
+    display: inline;
+    
+    }
+    #mainnav a {
+        text-decoration: none;
+        color: #fff;
+        margin-left:45px; 
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;        
+    }
+    #mainnav a:hofer{
+        text-decoration: underline;
+        
+
+    }
+    #mainnav li.active a {
+        font-weight: bold;
+
+    }
+    .conteiner {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-family:'Times New Roman', Times, serif
+        
+       
+        
+    }
+    
+    .pink {
+       color: pink;  
+    }
+    body {
+        
+       font-family: 'Merriweather', serif;
+       background-color: #380577;
+       color: white;
+    }
+    .main__info {
+       margin-top: 100px;
+    }
+    .main__img—float {
+        width: 500px;
+        height: 300px;
+        margin-right:  50px;   
+        float: left;
+        border-radius: 20px;
+        
+    }
+
+    
+    
+    /*uslugi*/
+    #panorama {
+        width: 100%;
+        height: 150px;   
+        background: url(../img/2.jpg) no-repeat center 70%;
+        background-size: cover; /*масштабирование фона*/
+        }
+    .services__img {
+        width: 240px;
+        margin: 10px;
+        border-radius: 20px;
+   }
+    .services__item{
+         margin-left: 40px;
+         margin-right: 40px;
+         width: 240px;
+         float:left;      
+    }
+   .style__h {
+       text-transform: uppercase;
+       font-weight: 750;
+       font-size: 20px;
+       margin: 10px;
+   }
+   .new::after {
+       content: "new";
+       font-size: 10px;
+       vertical-align: super;
+       background-color: violet;
+       border-radius: 2px;
+       padding: 3px;
+       margin-left: 5px;
+   }
+   .style__p {
+       color: rgb(237, 177, 247);     
+   }
+    .services {
+        padding: 35px;
+        
+    }
+    .clearfix::after {
+        content: "";     
+        display: table;     
+        clear: both;
+    }    
+    .h1—invisible{
+        visibility: hidden;
+    }
+    table {       
+        border-collapse:collapse;
+        width: 86%;
+        margin-left: 75px;
+        height: 250px;
+        text-align: center;
+    }
+    td,th {
+        padding: 10px;
+    }
+    .price th:first-child{
+        width: 10%;
+    }
+    .price th:nth-child(2),.price th:last-child{
+        width: 25%;     
+    }
+    .price td:nth-child(3) {
+    text-align: left;
+    }
+    .price tr:nth-child(even){
+        background-color: #f60ad5;
+    }
+    .price th {
+        border: 5px solid #ce59bd;
+    }
+    .caption {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    /*onas*/
+    .services__item1{
+       text-align: left;
+       width: 100%;
+       max-width: 650px;
+       margin-top: 10px;
+      
+      
+    }
+    .services1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+       
+    
+    }
+    .services__img1 {
+        width:650px;
+        margin: 10px;
+        border-radius: 80px;
+    }
+    .paragraf {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .mark {
+        color: violet;
+    }
+    /*contacts*/
+    
+    .contacts {
+        text-align: center;
+        margin-top: 130px;             
+    }
+    .text {
+        font-size: 30px;
+        padding-top: 20px;
+        color: #fff;  
+        text-decoration: none;    
+    }
+    .data {
+        color: #f503d5;
+        font-size: 20px;
+    }
+    
+    .footer__block{
+        text-transform: uppercase;
+        display: inline-block;
+        width: 335px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer__icons {
+        display: inline-block;
+        width: 335px;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .footer__img {
+        width:50px;
+    }
+    /*Clients*/
+    .clients {
+           color:white
+    }
+    .clients__photo {
+        margin: auto;
+        width: 1000px;
+        height: 400px; 
+        border-radius: 200px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px white;
+    }
+    .clients__text {
+        color: #f503d5;
+        margin-bottom: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       text-align: center; 
+        
+    }
+    .clients__paragraf {
+        font-size: 16px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .pin {
+        color: rgb(255, 230, 239);
+    }
+    /*Форма*/
+    #contact-form {
+        
+    }
+    #contact-form [type="text"]{
+        height: 20px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        background-color: #eddfff;
+    }
+    #contact-form [type="email"]{
+        height: 20px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        background-color: #eddfff;
+    }
+    #contact-form [type="submit"]{
+        height: 30px;
+        width: 170px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        background-color: #a469f1;
+    }
+    #contact-form [type="date"]{
+        height: 20px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        background-color: #eddfff;
+    }
+    #contact-form [type="radio"]{
+        height: 32px;
+        width: 262px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        background-color: #eddfff;
+    }#contact-form [type="tel"]{
+        height: 20px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        background-color: #eddfff;
+    }
+
+    
