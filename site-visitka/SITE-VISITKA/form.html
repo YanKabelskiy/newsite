@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/ico" sizes="32x32" href="icons/favicon.ico"> 
+<link rel="icon" type="image/ico" sizes="16x16" href="icons/favicon.ico"> 
+<link rel="shortcut icon" href="icons/favicon.ico">  
+    <title>Напишите нам</title>
+        </head>
+        <body>
+            <div id="wrapper">
+               <header class="clearfix">
+            <div class="conteiner">
+                <a href="Index.html" id= "logo">
+            <span class = "pink">Cайт</span> <i>визитка</i></a>
+            <nav id= "mainnav">
+            <ul>
+                <li class="active"><a href="uslugi.html">Услуги</a></li>
+                <li class="active"><a href="onas.html">О нас</a></li>
+                <li class="active"><a href="contacts.html">Контакты</a></li>
+                <li class="active"><a href="clients.html">Клиенты</a></li>
+            </ul>
+            </nav>
+            </div>
+            </header>
+
+        <main>
+            <form id="contact-form">
+            <div required class="form__item">
+                <Label form="topic">Тема</Label><br>
+                <select name="topic" id="topic"type="radio">
+                <option value="1">Заказать услуги</option>
+                <option value="3">Предложить сотрудничество</option>
+                <option value="2">Оставить отзыв/замечание</option>
+                <option value="4">Другое</option>
+            </select>
+            </div>
+            <div class="form__item">
+                <Label form="name">Имя</Label><br>
+                <input required placeholder="Введите имя" name="name" id="name" type="text">
+            </div>
+            <div class="form__item">
+                <Label form="name">E-mail</Label><br>
+                <input required placeholder="Введите email" name="name" id="name" type="email">
+            </div>
+            <div class="form__item">
+                <Label form="name">Дата</Label><br>
+                <input value min="0.0.1900" max="31.12.2300"required placeholder="Введите дату!" name="name" id="name" type="date">
+            </div>
+            <div class="form__item">
+                <Label form="name">Телефон</Label><br>
+                <input type="tel" name="tel" placeholder="Введите номер телефона" 
+                pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}"
+>
+            </div>
+            <div class="form__item">
+                <Label form="name">Текст сообщения</Label><br>
+                <textarea name="name" id="name" type="text"required placeholder="Ваше сообщение"></textarea>
+            </div>
+            <div class="form__item"><br>
+                <input class="submit" type="submit" value="Отправить">
+            </div>
+            </form>
+
+        </main>
+            </div>
+            <footer>
+            <a href="form.html"><p class="footer__block" >Написать нам &#9650</p></a>
+            <p class="footer__block" > &copy; Новая компания</p>
+            <div class="footer__icons">
+            <a target="_blank" href="https://ru-ru.facebook.com/"><img class="footer__img" src="img/facebook.png" alt="">
+            <a target="_blank" href="https://www.instagram.com/"> <img class="footer__img" src="img/instagram.png" alt="">
+            <a target="_blank" href="https://vk.com/"> <img class="footer__img" src="img/vk-social-logotype.png" alt="">
+            </div>
+            </footer>
+        </body>
+</html>
